@@ -1,0 +1,55 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:app:Method: GET, Path: /apidocs/, Status: 200 OK, Response Time: 0.022387266159057617 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:28:19] "GET /apidocs/ HTTP/1.1" 200 -
+INFO:app:Method: GET, Path: /flasgger_static/swagger-ui-bundle.js, Status: 200 OK, Response Time: 0.00821995735168457 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:28:19] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+INFO:app:Method: GET, Path: /flasgger_static/lib/jquery.min.js, Status: 200 OK, Response Time: 0.013541698455810547 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:28:19] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+INFO:app:Method: GET, Path: /flasgger_static/swagger-ui.css, Status: 200 OK, Response Time: 0.02134394645690918 seconds
+INFO:app:Method: GET, Path: /flasgger_static/swagger-ui-standalone-preset.js, Status: 200 OK, Response Time: 0.019032001495361328 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:28:19] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:28:19] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+INFO:app:Method: GET, Path: /apispec_1.json, Status: 200 OK, Response Time: 0.011744976043701172 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:28:19] "GET /apispec_1.json HTTP/1.1" 200 -
+INFO:app:Method: GET, Path: /flasgger_static/favicon-32x32.png, Status: 200 OK, Response Time: 0.0005729198455810547 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:28:19] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+DEBUG:app:Data received: {'username': 'user1', 'password': 'password123'}
+INFO:app:User user1 created successfully
+INFO:app:Method: POST, Path: /, Status: 201 CREATED, Response Time: 0.32593202590942383 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:29:40] "[35m[1mPOST / HTTP/1.1[0m" 201 -
+DEBUG:app:Data received: {'username': 'user2', 'password': 'password456'}
+INFO:app:User user2 created successfully
+INFO:app:Method: POST, Path: /, Status: 201 CREATED, Response Time: 0.31170105934143066 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:29:45] "[35m[1mPOST / HTTP/1.1[0m" 201 -
+DEBUG:app:Data received: {'username': 'user3', 'password': 'password789'}
+INFO:app:User user3 created successfully
+INFO:app:Method: POST, Path: /, Status: 201 CREATED, Response Time: 0.31664204597473145 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:29:49] "[35m[1mPOST / HTTP/1.1[0m" 201 -
+INFO:app:User user1 logged in successfully
+INFO:app:Method: PUT, Path: /, Status: 200 OK, Response Time: 0.3065500259399414 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:29:55] "PUT / HTTP/1.1" 200 -
+INFO:app:User user2 logged in successfully
+INFO:app:Method: PUT, Path: /, Status: 200 OK, Response Time: 0.3050670623779297 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:00] "PUT / HTTP/1.1" 200 -
+INFO:app:User user3 logged in successfully
+INFO:app:Method: PUT, Path: /, Status: 200 OK, Response Time: 0.2995772361755371 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:05] "PUT / HTTP/1.1" 200 -
+ERROR:app:Error changing password: [Errno 8] nodename nor servname provided, or not known
+INFO:app:Method: PUT, Path: /trocasenha, Status: 500 INTERNAL SERVER ERROR, Response Time: 0.7629129886627197 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:10] "[35m[1mPUT /trocasenha HTTP/1.1[0m" 500 -
+INFO:app:Method: GET, Path: /apidocs/, Status: 200 OK, Response Time: 0.003229856491088867 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:59] "GET /apidocs/ HTTP/1.1" 200 -
+INFO:app:Method: GET, Path: /flasgger_static/swagger-ui-standalone-preset.js, Status: 304 NOT MODIFIED, Response Time: 0.0034019947052001953 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:59] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+INFO:app:Method: GET, Path: /flasgger_static/swagger-ui.css, Status: 304 NOT MODIFIED, Response Time: 0.0022690296173095703 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:59] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+INFO:app:Method: GET, Path: /flasgger_static/swagger-ui-bundle.js, Status: 304 NOT MODIFIED, Response Time: 0.002934694290161133 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:59] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+INFO:app:Method: GET, Path: /flasgger_static/lib/jquery.min.js, Status: 304 NOT MODIFIED, Response Time: 0.0018799304962158203 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:59] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:app:Method: GET, Path: /apispec_1.json, Status: 200 OK, Response Time: 0.000701904296875 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:59] "GET /apispec_1.json HTTP/1.1" 200 -
+INFO:app:Method: GET, Path: /flasgger_static/favicon-32x32.png, Status: 304 NOT MODIFIED, Response Time: 0.0019061565399169922 seconds
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 15:30:59] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
